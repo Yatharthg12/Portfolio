@@ -41,3 +41,6 @@ This portfolio uses:
 ✔ Fast, lightweight and simple
 
 ---
+
+## License 
+** The design is free for inspiration and academic growth, kindly refrain from using any content within the assets/ folder. **
