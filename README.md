@@ -43,4 +43,4 @@ This portfolio uses:
 ---
 
 ## License 
-***The design is free for inspiration and academic growth, kindly refrain from using any content within the assets/ folder.***
+***The design is free for inspiration and academic growth, kindly refrain from using any content from the assets/ folder in any capacity.***
