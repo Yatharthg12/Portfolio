@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatharth - Portfolio</title>
+    <meta name="description" content="Portfolio of Yatharth — web developer, AI enthusiast, and software engineer.">
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts for cool typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/favicon.png" />
+	<meta name="theme-color" content="#0a0a1e">
+	<script type="application/ld+json">
+		{"@context":"https://schema.org","@type":"Person","name":"Yatharth","jobTitle":"Web Developer / ML Enthusiast","url":"https://your-portfolio.example","sameAs":["https://github.com/Yatharthg12","https://www.linkedin.com/in/yatharth-garg/"]}
+	</script>
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
+
+	<header>
+		<nav class="glass-nav" role="navigation" aria-label="Main Navigation">
+			<div class="logo">Yatharth</div>
+			<button id="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="hamburger" aria-hidden="true"></span>
+			</button>
+			<ul id="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="main" tabindex="-1">
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <section id="home" class="hero">
+        <div class="intro glass-card" data-aos="zoom-in">
+            <!-- profile image lazy -->
+            <img src="assets/pfp.png" alt="Profile photo of Yatharth" class="profile-img" loading="lazy">
+            <div class="intro-text">
+                <h1>Hello, I'm Yatharth</h1>
+                <p class="tagline">BTech CSE Student | Passionate about Web Development, Machine Learning & Software Engineering</p>
+                <p>
+                    I build responsive web apps and prototype ML models. I focus on data, AI and scalable software using Python and modern web stacks.
+                    Currently open to internships and collaborative projects — feel free to reach out.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn btn-ghost">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2 data-aos="fade-up">Education</h2>
+        <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+            <h3>B.Tech in Computer Science and Engineering</h3>
+            <p>SRM Institute of Science and Technology | 2024 - 2028</p>
+            <p>Relevant Courses: Data Structures & Algorithms, Operating Systems, Web Technologies, Artificial intelligence and Machine Learning</p>
+        </div>
+        <!-- Added High School Diploma -->
+        <div class="glass-card" data-aos="fade-up" data-aos-delay="200">
+            <h3>High School Diploma</h3>
+            <p>Treamis World School | 2022 - 2024</p>
+            <p>Relevant Courses: Physics, Chemistry, Mathematics and Computer Science</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 data-aos="fade-up">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="100">HTML / CSS / JavaScript</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="200">Python & Machine Learning</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="300">DBMS</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="400">Java</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="500">Automated Feature Engineering</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="600">Data Science</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="700">Operating Systems</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="800">Git & GitHub</div>
+            <!-- Added Skills -->
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="900">Data Structures</div>
+            <div class="skill glass-card" data-aos="flip-left" data-aos-delay="1000">Research Analysis</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 data-aos="fade-up">Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Sentinel -->
+            <div class="project glass-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Project Sentinel: Satellite Telemetry Anomaly Detection System</h3>
+                <p>Project Sentinel is an end-to-end machine learning–based telemetry intelligence framework designed to monitor satellite health in real time. Publication of research paper is under review</p>
+            </div>
+
+            <!-- Space Situational Awareness System -->
+            <div class="project glass-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Space Situational Awareness System</h3>
+                <p>Developed a Space Situational Awareness system to monitor satellites and orbital debris using publicly available Two-Line Element (TLE) data. The project predicts short-term orbital positions, identifies close approaches between objects, and categorizes risk levels based on minimum separation distance.</p>
+                <div class="links project-github">
+                    <a href="https://github.com/Yatharthg12/Space-Situational-Awareness-System" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="github-link">
+                        <!-- GitHub SVG icon -->
+                        <svg viewBox="0 0 24 24" class="github-svg" xmlns="http://www.w3.org/2000/svg" role="img"><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.6 7.2 10 .5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.3-3.5-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.6-.8 1.9-1.2-.8-.1-1.6-.4-1.6-1.8 0-.4.2-.8.5-1.1-.1-.2-.4-1.1.1-2.3 0 0 .5-.2 1.7.7.5-.1 1-.1 1.5 0 1.2-1 1.7-.7 1.7-.7.5 1.2.2 2.1.1 2.3.3.3.5.7.5 1.1 0 1.4-.8 1.6-1.6 1.8.5.4.9 1.1.9 2.2v3.2c0 .3.2.6.7.5 4.2-1.4 7.2-5.3 7.2-10C23.1 5.3 18.3.5 12 .5z"/></svg>
+                    </a>
+                    <a href="https://github.com/Yatharthg12/Space-Situational-Awareness-System" target="_blank" rel="noopener noreferrer" class="github-text">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2 data-aos="fade-up">Experience</h2>
+        <div class="glass-card" data-aos="fade-up" data-aos-delay="200">
+            <h3>Web Development Intern — Unified Mentor</h3>
+            <p class="exp-date">Sept, 2025 - Dec, 2025</p>
+
+            <ul class="exp-list">
+                <li>Developing and styling web pages based on design specifications.</li>
+                <li>Writing clean, maintainable code using standard front-end technologies.</li>
+                <li>Ensuring responsive design across various screen sizes and devices.</li>
+                <li>Collaborating with designers and back-end developers to integrate UI components with application logic.</li>
+                <li>Testing and debugging front-end functionality in real-world environments.</li>
+                <li>Making iterative improvements based on feedback and user testing.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 data-aos="fade-up">Contact</h2>
+        <div class="glass-card" data-aos="fade-up">
+            <p style="text-align:center;margin-bottom:1rem;">Connect with me on</p>
+            <div class="social-icons" style="justify-content:center;">
+                <a href="https://github.com/Yatharthg12" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <!-- GitHub SVG -->
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img"><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.6 7.2 10 .5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.3-3.5-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.6-.8 1.9-1.2-.8-.1-1.6-.4-1.6-1.8 0-.4.2-.8.5-1.1-.1-.2-.4-1.1.1-2.3 0 0 .5-.2 1.7.7.5-.1 1-.1 1.5 0 1.2-1 1.7-.7 1.7-.7.5 1.2.2 2.1.1 2.3.3.3.5.7.5 1.1 0 1.4-.8 1.6-1.6 1.8.5.4.9 1.1.9 2.2v3.2c0 .3.2.6.7.5 4.2-1.4 7.2-5.3 7.2-10C23.1 5.3 18.3.5 12 .5z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/yatharth-garg/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <!-- LinkedIn SVG -->
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img"><path d="M4.98 3.5C4.98 4.6 4.1 5.5 2.99 5.5S1 4.6 1 3.5 1.9 1.5 2.99 1.5 4.98 2.4 4.98 3.5zM.5 8.5h5v14h-5v-14zM9.5 8.5h4.8v1.9h.1c.7-1.3 2.4-2.7 5-2.7 5.4 0 6.4 3.5 6.4 8v6.8h-5v-6c0-1.4 0-3.2-2-3.2-2 0-2.3 1.6-2.3 3.1v6.1h-5v-14z"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+	</main>
+
+    <!-- Particles.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
