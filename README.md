@@ -41,6 +41,3 @@ This portfolio uses:
 ✔ Fast, lightweight and simple
 
 ---
-- 🌐 Hosted via **GitHub Pages**
-
----
